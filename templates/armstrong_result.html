@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Armstrong Number Checker - Result</title>
+</head>
+<body>
+    <h1>Armstrong Number Checker - Result</h1>
+    <p>Number: {{ number }}</p>
+    {% if is_armstrong %}
+    <p>Status: Armstrong Number</p>
+    {% else %}
+    <p>Status: Not an Armstrong Number</p>
+    {% endif %}
+    <p><a href="/check_armstrong">Check another number</a></p>
+</body>
+</html>
